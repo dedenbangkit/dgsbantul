@@ -25,13 +25,13 @@ export username="LOGIN_PASSSWORD"
 To show data with parameters
 
 ```
-python app.py <NIK> blank online
+python app.py <NIK> complete online
 ```
 
 To show data without parameters
 
 ```
-python app.py <NIK> clean online
+python app.py <NIK> blank online
 ```
 
 ### Offline
@@ -39,13 +39,13 @@ python app.py <NIK> clean online
 To show data with parameters
 
 ```
-python app.py <NIK> blank
+python app.py <NIK> complete 
 ```
 
 To show data without parameters
 
 ```
-python app.py <NIK> clean
+python app.py <NIK> blank 
 ```
 
 Note: that we need to have dataset which collected with `cron.py` before running
