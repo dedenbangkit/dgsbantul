@@ -34,6 +34,12 @@ To show data without parameters
 python app.py <NIK> blank online
 ```
 
+To show data with selected parameters
+
+```
+python app.py <NIK> selected online
+```
+
 ### Offline
 
 To show data with parameters
@@ -46,6 +52,12 @@ To show data without parameters
 
 ```
 python app.py <NIK> blank 
+```
+
+To show data with selected parameters
+
+```
+python app.py <NIK> selected
 ```
 
 Note: that we need to have dataset which collected with `cron.py` before running
