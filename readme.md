@@ -25,18 +25,29 @@ export username="LOGIN_PASSSWORD"
 To show data with parameters
 
 ```
-python live.py <NIK> blank
+python app.py <NIK> blank online
 ```
 
-To show datawithout parameters
+To show data without parameters
 
 ```
-python live.py <NIK> c
+python app.py <NIK> clean online
 ```
 
 ### Offline
 
-Saving dataset to file for fast search by replacing `live.py` with `app.py`
+To show data with parameters
+
+```
+python app.py <NIK> blank
+```
+
+To show data without parameters
+
+```
+python app.py <NIK> clean
+```
+
 Note: that we need to have dataset which collected with `cron.py` before running
 To save datasets:
 
